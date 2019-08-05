@@ -1,0 +1,107 @@
+@charset "utf-8";
+.margin{width: 1000px;margin:0 auto;}
+body{background: #e5e5e5;}
+/* header */
+header{
+		display:flex;
+		}
+header img{
+			margin:30px 0 0 100px;
+			width:150px;
+			height:50px;
+			}
+header h2{
+			margin:35px 0 0 5px;
+			}
+.box{
+	display:flex;
+	height:30px;
+	}
+.box p{
+		font:16px/30px "";
+		color:#000000;
+		margin:50px 0 0 200px;
+		}
+.box span{
+		width:200px;
+		height:30px;
+		background:#fff;
+		font:20px/30px "";
+		color:#000000;
+		margin:50px 0 0 300px;
+		text-align: center;		
+		}
+.box p a{
+		color:#8AB700;
+		
+		}
+		
+/* main */
+.logincenter {
+	/* background: transparent url("../images/banner2.jpg") no-repeat; */
+	height: 400px;
+}
+
+.logincenter .loginbox {
+	width: 1000px;
+	margin-left: 80px;
+}
+
+.logincenter .loginbox div {
+	height: 40px;
+	line-height: 40px;
+	padding: 10px 0 10px 50px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.logincenter .loginbox div p {
+	width: 100px;
+}
+
+.logincenter .loginbox div input {
+	width: 300px;
+	text-indent: 20px;
+}
+
+.logincenter .loginbox div span {
+	width: 300px;
+	text-align: start;
+}
+
+.logincenter .loginbox .btn ul {
+	width: 304px;
+}
+
+.logincenter .loginbox .btn ul li {
+	font-size: 12px;
+	text-align: end;
+}
+
+.logincenter .loginbox .btn ul li:nth-child(1) input {
+	width: 304px;
+	height: 40px;
+}
+
+.logincenter .loginbox .btn ul li:nth-child(2) input {
+	width: 15px;
+	height: 15px;
+}
+		
+/* footer */
+footer{height:100px;
+		text-align: center;
+		overflow: hidden;
+		padding-top:30px;
+		}
+footer a{		
+		font:16px/24px "";
+		color:#666666;
+		
+}
+footer p{
+		font:16px/24px "";
+		color:#666666;
+		text-align: center;
+}
